@@ -28,6 +28,19 @@ var dishSchema = new Schema({
         required: true,
         unique: true
     },
+    image: {
+
+    },
+    category: {
+
+    },
+    label: {
+        type: String,
+        default: ''
+    },
+    price: {
+
+    },
     description: {
         type: String,
         required: true
